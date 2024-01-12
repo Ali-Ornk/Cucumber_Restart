@@ -16,6 +16,7 @@ public class ConfigurationReader {
             System.out.println("Failed to load properties");
             e.printStackTrace();
         }
+
     }
     public static String getProperties(String key){
         return configFile.getProperty(key);
